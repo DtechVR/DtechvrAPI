@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 var con = mysql.createConnection({
-    host: "mysql-44864-0.cloudclusters.net",
-    port: "18178",
-    user: "diyar",
-    password: "2022Ashti2022",
+    host: "admiring-snyder.51-159-29-254.plesk.page",
+    port: "3306",
+    user: "dtech",
+    password: "1998diyarmms",
     database: "dtechvr"
   });
 con.connect((err) => {
