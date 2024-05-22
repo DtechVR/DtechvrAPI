@@ -15,7 +15,7 @@ console.log('Application Name : ', config.get('name'));
 
 app.use('/system', system);
 
-const port = process.env.PORT || 1993;
+const port = 10000;
 app.listen(port,()=>{
         console.log(`Linstening on port ${port}`);
 });
